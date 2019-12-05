@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F7EDD7;
+    font-family:  sans-serif;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #B8B1AA;
+    margin-top: 50px;
+    position: relative;
+}
+#nav_items{
+    margin-bottom: 20px ;
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 200px; 
+    color: white; 
+    text-decoration: none;
+    
+}
+#nav_items:hover{
+    color: black;
+}
+#nav_search{
+    margin-left: 250px;
+}
+.search_items{
+    color: white;
+}
+.search_items:hover{
+    color: black;
+}
+header img{
+    float: left;
+    width: 170px;
+    margin-left: 70px ;
+    margin-top: -30px;
+} 
+#main_cnt{
+    margin: 100px;
+    margin-top: 30px;
+    -moz-box-shadow: 10px 10px 5px 0px #656565;
+    -webkit-box-shadow: 10px 10px 5px 0px #656565;
+    -o-box-shadow: 10px 10px 5px 0px #656565;
+    box-shadow: 10px 10px 5px 0px #656565;
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=134, Strength=5);
+}
+#top_bar{
+    width: 100%;
+    height: 40px;
+    background-color: red;
+}
+/* h1{
+    margin-left: 20px;
+} */
+#h1leh1{
+    margin-left: 90px;
+}
+#cntr_principal{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    background-color: white;
+    border-radius: 0px 0px 5px 5px;
+}
+#ctnr_un{
+    width: 69%;
+
+    height: 400px;
+}
+#milieu{
+    width: 2%;
+
+    height: 400px;
+}
+#ctnr_deux{
+    width: 29%;
+    height: 400px;
+    background-color: rgba(226, 222, 222, 0.349);
+}
+#ctnr_premier_texte{
+    width: 100%;
+    height: 38%;
+    margin-top: -10px;
+    background-color: rgba(226, 222, 222, 0.349) ;
+
+}
+#titre_premier_texte{
+    margin-left: 10px;
+    margin-top: 30px;
+    font-size:  25px;
+}
+#txt_premier_texte{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size:  16px;
+}
+#img_premier_texte{
+    margin-top: 20px;
+    height: 50px;
+    margin-left: 150px;   
+}
+#milieu_premier{
+    height: 4%;
+    width: 100%;
+}
+#ctnr_deuxieme_texte{
+    width: 100%;
+    background-color: rgba(226, 222, 222, 0.349) ;
+    height: 50%;
+}
+#titre_deuxieme_texte{
+    margin-top: 15px;
+    margin-left: 5px ;
+    font-size: 20px;
+}
+#premier_poste{
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+#premier_cntr_poste{
+    display: flex;
+}
+pre{
+    line-height: 7px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#premier_paragraphe{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 15px;
+    color: red;
+} 
+ #deuxieme_paragraphe{
+    font-size: 10px;
+    margin-left: 20px;
+    color: grey;
+} 
+#fin{
+    margin-top: -50px;
+    margin-left: 20px;
+}
+#link_fin{
+    margin-bottom: 20px ;
+}
